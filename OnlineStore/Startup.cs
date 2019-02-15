@@ -37,7 +37,7 @@ namespace OnlineStore
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+                 app.UseMvc();
         }
     }
 }
