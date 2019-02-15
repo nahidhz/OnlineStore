@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using OnlineStore.DataAccess;
 using OnlineStore.Services.IServices;
 using OnlineStore.Services.Services;
 using System;
@@ -14,7 +13,7 @@ namespace OnlineStore.Config
         {
             services.AddScoped<ICourseCategoryService, CourseCategoryService>();
             services.AddScoped<ICourseService, CourseService>();
-            services.AddScoped<OnlineStoreContext>();
+          //  services.AddScoped<OnlineStoreContext>();
 
         }
     }
